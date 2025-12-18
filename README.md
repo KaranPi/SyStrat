@@ -32,10 +32,3 @@ The final notebook consolidates all significant findings, including model perfor
 - **Performance Metrics**: Strategy evaluations, including returns, risk-adjusted returns, drawdown statistics, and more.
 - **Visualizations**: Graphical representations of model outputs, trends, and patterns for actionable insights.
 
-## Getting Started
-1. Clone the repository `git clone https://github.com/KaranPi/SyStrat.git`.
-2. Navigate to the `01_hold` directory.
-3. Open and execute the notebooks in sequence for a systematic understanding and application of the methodology.
-
-## Disclaimer
-This repository is for educational and research purposes. It is not to be used for financial advice or in live trading systems without substantial testing and validation.
