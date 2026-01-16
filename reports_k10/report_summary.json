@@ -1,0 +1,25 @@
+{
+  "k_label": 10,
+  "paths": {
+    "deciles_val": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\deciles_val.csv",
+    "deciles_test": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\deciles_test.csv",
+    "calibration_val_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\calibration_val.png",
+    "calibration_test_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\calibration_test.png",
+    "residuals_val_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\residuals_val.png",
+    "residuals_test_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\residuals_test.png",
+    "by_ticker_val_csv": null,
+    "by_ticker_test_csv": null,
+    "feature_importance_xgb_csv": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\feature_importance_xgb.csv",
+    "feature_importance_xgb_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\feature_importance_xgb.png"
+  },
+  "val": {
+    "top_decile_lift": 1.673767694705058,
+    "spearman": 0.6742661762724883,
+    "calibration_slope": 1.006514729796703
+  },
+  "test": {
+    "top_decile_lift": 1.3969983041006384,
+    "spearman": 0.517002661400301,
+    "calibration_slope": 1.040558599686145
+  }
+}

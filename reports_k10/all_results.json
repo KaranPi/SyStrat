@@ -1,0 +1,99 @@
+{
+  "metrics": {
+    "VAL_EN": {
+      "MAE": 0.010508715010637854,
+      "RMSE": 0.01543765982990251,
+      "MAPE": 0.4104691050700322,
+      "R2": 0.10786269189000874
+    },
+    "VAL_GBM": {
+      "MAE": 0.009629828290625158,
+      "RMSE": 0.014362453259424292,
+      "MAPE": 0.3727045001029694,
+      "R2": 0.227806708823033
+    },
+    "TEST_EN": {
+      "MAE": 0.011901446033609247,
+      "RMSE": 0.019001245291842824,
+      "MAPE": 0.3326731056018754,
+      "R2": 0.16959202025340714
+    },
+    "TEST_GBM": {
+      "MAE": 0.011914971843683201,
+      "RMSE": 0.018905031662073763,
+      "MAPE": 0.34578113688722045,
+      "R2": 0.17798034268521978
+    },
+    "CV_BEST_EN": {
+      "alpha": 0.0008111308307896872,
+      "l1_ratio": 0.2,
+      "score": 0.2993100173107979,
+      "mae": 0.014149086846558849
+    },
+    "CV_BEST_GBM": {
+      "params": {
+        "n_estimators": 300,
+        "learning_rate": 0.03,
+        "max_depth": 2,
+        "subsample": 0.7,
+        "min_samples_leaf": 20
+      },
+      "score": 0.32114912011307567,
+      "mae": 0.014186200522032387
+    },
+    "ALPHA_EN": 0.9094696263126023,
+    "ALPHA_GBM": 0.9144520997862038,
+    "VAL_XGB": {
+      "MAE": 0.008449117836259257,
+      "RMSE": 0.012108918262131363,
+      "MAPE": 0.32298285027589557,
+      "R2": 0.45111740105725107
+    },
+    "TEST_XGB": {
+      "MAE": 0.01223973886890438,
+      "RMSE": 0.01906525603170155,
+      "MAPE": 0.35861952153292,
+      "R2": 0.1639876967719769
+    },
+    "CV_BEST_XGB": {
+      "params": {
+        "n_estimators": 400,
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "subsample": 0.7,
+        "colsample_bytree": 0.7,
+        "min_child_weight": 5,
+        "reg_alpha": 0.0,
+        "reg_lambda": 1.0
+      },
+      "score": 0.3380638880455409,
+      "mae": 0.014637498562920126
+    },
+    "ALPHA_XGB": 0.940032010852178
+  },
+  "report": {
+    "k_label": 10,
+    "paths": {
+      "deciles_val": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\deciles_val.csv",
+      "deciles_test": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\deciles_test.csv",
+      "calibration_val_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\calibration_val.png",
+      "calibration_test_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\calibration_test.png",
+      "residuals_val_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\residuals_val.png",
+      "residuals_test_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\residuals_test.png",
+      "by_ticker_val_csv": null,
+      "by_ticker_test_csv": null,
+      "feature_importance_xgb_csv": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\feature_importance_xgb.csv",
+      "feature_importance_xgb_png": "C:\\Users\\quantbase\\Desktop\\SyStrat\\14-01-2026\\data_int\\ml\\reports_k10\\feature_importance_xgb.png"
+    },
+    "val": {
+      "top_decile_lift": 1.673767694705058,
+      "spearman": 0.6742661762724883,
+      "calibration_slope": 1.006514729796703
+    },
+    "test": {
+      "top_decile_lift": 1.3969983041006384,
+      "spearman": 0.517002661400301,
+      "calibration_slope": 1.040558599686145
+    }
+  }
+}
