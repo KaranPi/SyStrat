@@ -1,0 +1,21 @@
+# If you prefer virtualenv/pip instead of conda, use this list (Python 3.11 recommended)
+numpy==1.26.*
+pandas==2.2.*
+scipy==1.13.*
+statsmodels==0.14.*
+scikit-learn==1.4.*
+matplotlib==3.8.*
+numexpr
+pyarrow==14.*
+PyYAML
+tqdm
+openpyxl
+xlrd
+yfinance>=0.2.36,<0.3
+jugaad-data>=0.21
+pandas-datareader>=0.10
+hmmlearn>=0.3
+pmdarima>=2.0
+python-dotenv>=1.0
+exchange-calendars>=4.5
+requests>=2.31
