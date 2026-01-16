@@ -18,7 +18,7 @@ This notebook visualizes and examines data to uncover patterns and trends that a
 The position sizing logic is crafted in this notebook. It integrates the insights derived from the EDA step and applies algorithms to determine the optimal position size for investments based on the ML models and market conditions.
 
 ### 5. Backtesting and Model Evaluation (`wp_ML_backtest.ipynb`)
-This extensive notebook evaluates the performance of the formulated strategy via backtesting. It simulates the investment strategy over historical data to validate its efficiency and robustness. The outcomes include statistical metrics and graphical outputs for interpreting performance.
+This notebook evaluates the performance of the formulated strategy via backtesting. It simulates the investment strategy over historical data to validate its efficiency and robustness. The outcomes include statistical metrics and graphical outputs for interpreting performance.
 
 ### 6. Regime Analysis (`wp_regimes.ipynb`)
 This notebook examines different market regimes and evaluates the consistency of the ML model and strategy across varying market conditions. Understanding regime shifts is key to adapting the strategy for long-term success.
