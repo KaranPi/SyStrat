@@ -1,7 +1,7 @@
 # SyStrat: Volatility Forecasting and Position Sizing Logic
 
 ## Overview
-This repository, **SyStrat**, incorporates Machine Learning (ML) techniques to create a comprehensive model that forecasts market volatility and implements buy-and-hold investment strategies based on position sizing logic. The repository contains a series of Jupyter Notebooks that systematically build the model, analyze the data, and perform backtesting to validate the strategy.
+This repository incorporates Machine Learning (ML) techniques to create a comprehensive model that forecasts market volatility and implements buy-and-hold investment strategies based on position sizing logic. The repository contains a series of Jupyter Notebooks that systematically build the model, analyze the data, and perform backtesting to validate the strategy.
 
 ## Workflow and Key Components
 
