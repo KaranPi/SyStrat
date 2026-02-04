@@ -19,6 +19,7 @@ dependencies:
   - tqdm
   - openpyxl
   - xlrd
+  - pytest
   # Optional (uncomment if you approve later)
   # - rpy2=3.5.*               # requires local R installation (R >=4.4, <= your R version)
   # - numba                    # speedups; optional
